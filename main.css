@@ -1,0 +1,47 @@
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.allCards{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+.counter-card{
+    background-color: rgb(224, 196, 196);
+    display: flex;
+    flex-direction: column;
+    width:20%;
+    padding:40px;
+    margin: auto;
+    gap:10px;
+    align-items: center;
+    border-radius: 20px;
+    background-image: linear-gradient(
+        to right,
+        rgba(255, 0, 0, 0),
+        rgb(215, 225, 151)
+      );
+}
+.counter-card button{
+    padding: 5px 20px;
+    cursor: pointer;
+    font-size:20px;
+    border-radius: 20px;
+    border: none;
+    background-color:  rgb(255, 255, 255);
+    font-size: 25px;
+
+}
+div .counter{
+width:50px;
+height:50px;
+background-color: rgb(249, 252, 233);
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 30px;
+}
+
+

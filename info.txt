@@ -1,0 +1,13 @@
+ 
+"this"-----> will refer to the context in which the function is called if we use an arrow function (the arrow function cannot binding this),
+ or this will refer to the context in which this is called if we are using a function expression(the expression function can binding this).
+ If we use a function expression we can use this instead of event.target.
+
+"this" with arrow function: it will log the window - [object Window] and search in it.
+
+"this" with function expression:it will log the element that i wanted it to log in.
+
+------------------------------------------------------------------------------------------
+
+"event.target"-----> Refers to the element that initiated the event. we can use it in both arrow function and function expression.
+
